@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .3s cubic-bezier(.38, 1.15, .7, 1.12);
+    font-weight: normal;
+    font-family: 'Cairo', sans-serif;
+}
+body{
+    background-color: #e8eff8;
+    color: #424242;
+}
+.All-sign-in {
+    width: 65%;
+    margin: auto;
+    top: 7rem;
+    position: relative;
+    justify-content: space-evenly;
+    display: flex;
+    padding: 4rem 2rem .4rem 0rem;
+    border: #194382 solid 1px;
+    background-color: white;
+    border-radius: 8px;
+}
+.All-sign-in .Logo {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+}
+.All-sign-in .imges {
+    position: relative;
+    bottom: -12rem;
+}
+.All-sign-in .sign-in{
+    width: 50%;
+}
+.All-sign-in .sign-in h2{
+    color: #194382;
+    margin: 1.3rem 0 0.6rem 0;
+    font-size: 1.8rem;
+    display: inline-block;
+    padding: 1rem 0;
+    border-radius:10px ;
+}
+.All-sign-in .sign-in form .div1 {
+    margin: 0 0 1rem 0;
+}
+.All-sign-in .sign-in form  .div0 {
+    display: flex;
+    justify-content: space-between;
+}
+.All-sign-in .sign-in form  .div0 label {
+    margin: .4rem 0;
+    display: block;
+}
+.All-sign-in .sign-in form  .div0 input {
+    width: calc(97% / 2) !important;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    padding: 0.8rem ;
+}
+
+.All-sign-in .sign-in form .div1 label{
+    margin: .4rem 0;
+    display: block;
+}
+.All-sign-in .sign-in form .div1 input{
+    width: 100%;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    padding: 0.8rem ;
+}
+.All-sign-in .sign-in form .div2 input {
+    margin: .3rem 0;
+}
+.All-sign-in .sign-in form .div2{
+    position: relative;
+}
+.All-sign-in .sign-in form .div2 button:first-of-type {
+    position: absolute;
+    background-color: #f3f3f3;
+    top: 6%;
+    padding: 0;
+    border-radius: 10px;
+    right: 12%;
+}
+.All-sign-in .sign-in form .div2 button:last-of-type {
+    position: absolute;
+    background-color: #f3f3f3;
+    top: 65%;
+    padding: 0;
+    border-radius: 10px;
+    right: 12%;
+}
+.All-sign-in .sign-in button:nth-of-type(1){
+    margin: 0.7rem 0 2rem 0;
+    padding: .7rem .6rem ;
+    background-color: rgb(229, 166, 4);
+    border: none;
+
+}
+.All-sign-in .sign-in .btn2 {
+    font-size: 1.1rem;
+    position: relative;
+    left: 48%;
+}
+
+
+
+
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+    .container{
+        position: relative;
+        top: -6rem;
+    }
+    .All-sign-in {
+        width: 100%;
+        flex-wrap: wrap-reverse;
+        top: 6.2rem;
+        padding: 0rem 0rem 0rem 0rem;
+
+    }
+
+    .All-sign-in .sign-in {
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .All-sign-in .imges {
+        bottom: -2rem;
+        left: 0%;
+    }
+    img, svg {
+        width: 8rem;
+        }
+    .All-sign-in .sign-in h2 {
+        margin:0;
+        padding: 0rem 0rem 2rem 0;
+        position: relative;
+         font-size: 1.3rem;
+         left: 33%;
+         letter-spacing: 2px;
+         word-spacing: 10px;
+    }
+    .All-sign-in form {
+    font-size: .8rem;
+    }
+    .All-sign-in .sign-in button:nth-of-type(1) {
+        padding: 0.3rem 0.4rem;
+        font-size: .9rem;
+    }
+    .All-sign-in .sign-in button.btn2 {
+            position: relative;
+            font-size: 0.9rem;
+            bottom: 0.5rem;
+        }
+    .All-sign-in .sign-in .btn2 {
+        left: 0;
+        bottom: 0.5rem;
+    }
+    .sign-in .butt{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+
+}
+
+
+/* small Screens */
+@media screen and (min-width: 768px) {
+   
+    .All-sign-in {
+        flex-wrap: wrap-reverse;
+        width: 90%;
+        padding-top: 0;
+        padding-bottom: 0rem;
+        margin-top: -5rem;
+    }
+   
+    .All-sign-in .sign-in {
+        width: 100%;
+        padding: 0 2rem;
+    }
+    .All-sign-in .imges {
+        bottom: -2rem;
+        left: 0%;
+    }
+
+    img, svg {
+        width: 10rem;
+    }
+    .All-sign-in .sign-in h2 {
+        margin:0;
+    
+        padding: 0rem 0rem 2rem 0;
+        position: relative;
+         font-size: 1.5rem;
+         left: 35%;
+    }
+    .All-sign-in form {
+    font-size: 1rem;
+    }
+    .All-sign-in .sign-in button:nth-of-type(1) {
+        padding: 0.3rem 0.4rem;
+        font-size: 1rem;
+    }
+    .All-sign-in .sign-in button.btn2 {
+            position: relative;
+            font-size: 1rem;
+            bottom: 0.5rem;
+        }
+    .All-sign-in .sign-in .btn2 {
+        left: 0;
+        bottom: 0.5rem;
+    }
+    .sign-in .butt{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+}
+
+/* Medium Screen */
+@media screen and (min-width: 992px) {
+    .All-sign-in {
+        flex-wrap: nowrap;
+        width: 65%;
+        margin: auto;
+        top: 7rem;
+        position: relative;
+        justify-content: space-evenly;
+        display: flex;
+        padding: 4rem 0rem 0 0rem;
+    }
+    .All-sign-in .Logo {
+        top: -7rem;
+        left: 1.9rem;
+            }
+    .All-sign-in .sign-in {
+        position: relative;
+        left: 2rem;
+        width: 50%;
+        padding: 0rem 0 0 1rem;
+    }
+    .All-sign-in .sign-in h2 {
+        margin: 2rem 0 1rem 0;
+        padding: 0rem 0rem 0rem 0;
+        font-size: 1.8rem;
+        left: -7%;
+        }
+    .All-sign-in form {
+        width: 100%;
+        position: relative;
+        left: -2rem;
+    }
+    .All-sign-in .imges {
+        bottom: -2rem;
+        left: 0;
+        width: 50%;
+    }
+    .sign-in .bot {
+        left: 4rem;
+        position: relative;
+        justify-content: start;
+        width: 50%;
+    }
+    .All-sign-in .sign-in .butt button:nth-of-type(1) {
+        padding: 0.7rem 0.8rem;
+        position: relative;
+        left: -6.2rem;
+        }
+    .All-sign-in .sign-in button.btn2 {
+        left: 10%;
+        padding: 0;
+        top: 1rem;
+        height: 2rem;
+        }
+    img, svg {
+        width: 100%;
+        position: relative;
+        bottom: -9rem;
+        left: -0.9rem;
+    }
+
+    
+}
+
+/* Large Screens */
+@media screen and (min-width: 1024px) {
+
+
+}
+
+
